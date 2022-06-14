@@ -18,8 +18,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
           let td3 = document.createElement("td");
           let td4 = document.createElement("td");
   
-  
-  
           let content = document.createTextNode("School");
           th1.appendChild(content);
   
@@ -31,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   
           content = document.createTextNode("Year");
           th4.appendChild(content);
-  
   
           tr.appendChild(th1);
           tr.appendChild(th2);
@@ -50,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
             td3 = document.createElement("td");
             td4 = document.createElement("td");
   
-  
             content = document.createTextNode(element.school);
             td1.appendChild(content);
   
@@ -62,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   
             content = document.createTextNode(element.year);
             td4.appendChild(content);
-  
   
             tr.appendChild(td1);
             tr.appendChild(td2);

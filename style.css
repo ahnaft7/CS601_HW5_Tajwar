@@ -41,6 +41,17 @@ button:hover {
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
+    animation: ani1 0.4s ease-in-out infinite alternate;
+}
+
+
+@keyframes ani1 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
 }
 
 img,
